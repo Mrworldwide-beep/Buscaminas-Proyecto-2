@@ -9,7 +9,7 @@ class Cell:
         self.neighbor_mines = 0
         self.kaboom = False
         self.grid_size = grid_size # Useful to know how to draw the cell
-        
+    #hola
     def __str__(self):
         if self.is_revealed:
             state = "⬜"
