@@ -7,7 +7,7 @@ class Board:
         self.cols = cols
         self.mines_quantity = mines_quantity
         self.grid = [[Cell(r, c, 1) for c in range(cols)] for r in range(rows)]
-        
+    #hola    
     def __str__(self):
         '''Simple visual test'''
         mesa = []
